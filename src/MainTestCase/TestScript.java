@@ -20,6 +20,7 @@ public class TestScript {
 @BeforeMethod
 	public void launch() 
 	{
+	
 		test=report.startTest("verify login");
 		Browser br=new Browser();
 		br.Verify_Browser("chrome","http://orangehrm.qedgetech.com/");
